@@ -146,7 +146,7 @@ body
 }
 
 div.home-about, div.home-contact, div.home-projects{
-	position: relative;
+	position: absolute;
 	text-align: left;
 }
 .home a:hover span {
@@ -159,24 +159,27 @@ div.home-about, div.home-contact, div.home-projects{
 }
 
 .home-projects {
+    width: 320px;
 	position: relative;
 	left: 250px;
-	top: 30px;
+	top: -3px;
 	font-size: 60px;
 }
 
 .home-about {
+    width: 270px;
 	font-size: 50px;
 	position: relative;
-	left: 350px;
-	top: -30px;
+	left: 330px;
+	top: 190px;
 }
 
 .home-contact {
+    width: 270px;
 	font-size: 30px;
 	position: relative;
 	left: 440px;
-	top: -30px;
+	top: -45px;
 }
 
 .home-projects a:hover span {top: 45px; 
