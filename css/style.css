@@ -1,0 +1,513 @@
+/* === CSS RESET === */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+{
+    display: block
+}
+body
+{
+    line-height: 1
+}
+ol, ul
+{
+    list-style: none
+}
+blockquote, q
+{
+    quotes: none
+}
+blockquote:before, blockquote:after, q:before, q:after
+{
+    content: '';
+    content: none;
+}
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* === End of CSS RESET === */
+body
+{
+    background: url(../images/classy_fabric.png);
+    color: white;
+    font-size: 20px;
+    font-family: 'Asap', sans-serif;
+    overflow: hidden;
+}
+/* === Navigation === */
+.bottom-content
+{
+    position: fixed;
+    z-index: 9999999;
+    bottom: 20px;
+    right: 0;
+    left: 0;
+    background-color: #1B1C1F;
+}
+.navigation
+{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 14px;
+}
+.navigation
+{
+    left: 0;
+    padding: 0 20px;
+}
+.navigation ul
+{
+    margin: 0;
+    padding: 0;
+}
+.navigation li
+{
+    float: left;
+    display: block;
+    margin: 0 10px 0 0; 
+}
+.navigation a
+{
+    display: block;
+    line-height: 40px;
+    border: none;
+    text-align: center;
+    transition: 0.25s;
+    width: auto;
+    padding: 10px 8px;
+    position: relative;
+    -webkit-transition: all ease-in-out 0.4s;
+    -moz-transition: all ease-in-out 0.4s;
+    -o-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+    font-family: 'Jockey One', sans-serif;
+}
+.navigation a:hover
+{
+    background: rgba(15,15,15, 0.5);
+    text-decoration: none;
+    color: #D9D9D9;
+}
+
+/* === Home === */
+.home
+{
+    text-align: center;
+    position: relative;
+    top: -160px;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+}
+
+.home h1
+{
+    font-size: 150px;
+    line-height: 1.5em;
+    font-family: 'Jockey One', sans-serif;
+    text-transform: uppercase;
+    color: #4eb8e0;
+    
+}
+
+.wrapper .home, .wrapper .projects, .wrapper .aboutme, .wrapper .contact
+{
+    position: absolute
+}
+
+.home h1 a {
+	color: #4EB8E0;
+}
+
+.home a
+{
+	color: #EEEEEE;
+}
+.home a span
+{
+	display: none;
+}
+
+.home a:hover {
+	color: #4eb8e0;
+	text-decoration: none;
+}
+
+div.home-about, div.home-contact, div.home-projects{
+	position: relative;
+	text-align: left;
+}
+.home a:hover span {
+	display: block;
+	position: absolute;
+	text-decoration: none;
+	background: none;
+	font-size: 14px;
+	color: #4eb8e0;
+}
+
+.home-projects {
+	position: relative;
+	left: 250px;
+	top: 30px;
+	font-size: 60px;
+}
+
+.home-about {
+	font-size: 50px;
+	position: relative;
+	left: 350px;
+	top: -30px;
+}
+
+.home-contact {
+	font-size: 30px;
+	position: relative;
+	left: 440px;
+	top: -30px;
+}
+
+.home-projects a:hover span {top: 45px; 
+						left: 0px; 
+}	
+.home-about a:hover span {top: 28px; 
+						left: 0px; 
+}		
+.home-contact a:hover span {top: 18px; 
+						left: 0px; 
+}	
+
+.page-title a {
+	color: #4EB8E0;
+}
+
+/* === projects === */
+.projects
+{
+    top: 510px;
+    left: 10%;
+}
+.page-title
+{
+    font-size: 26px;
+    padding: 25px 50px;
+}
+.aboutme .page-title, .contact .page-title
+{
+    padding: 25px 0
+}
+.box
+{
+    margin: 0 0 20px 0;
+    background: rgba(10,10,10, 0.5);
+    position: relative;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.info h3, .content-box h3
+{
+    font-family: 'Jockey One', sans-serif;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    padding: 0;
+}
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+    height: 400px;
+}
+
+.jcarousel-skin-tango li .youtube
+{
+	width: 292px;
+}
+
+.jcarousel-skin-tango li #droids-poster
+{
+	background:url(../images/technical/all.jpg) 0 0;
+	width: 292px;
+	height: 219px;
+	
+}
+
+.jcarousel-skin-tango li #nom-poster
+{
+	background:url("../images/technical/all.jpg") 0px -219px;
+	width: 292px;
+	height: 219px;
+	
+}
+
+.jcarousel-skin-tango li #music-poster
+{
+	background:url(../images/technical/all.jpg) 0 -438px;
+	width: 292px;
+	height: 194px;
+	
+}
+
+.jcarousel-skin-tango li #opower-logo
+{
+	background:url(../images/technical/all.jpg) 0 -631px;
+	width: 292px;
+	height: 48px;
+	
+}
+
+.jcarousel-skin-tango li #facebook-logo
+{
+	background:url(../images/technical/all.jpg) 0 -679px;
+	width: 292px;
+	height: 110px;
+	
+}
+
+.jcarousel-skin-tango li #hp-logo
+{
+	background:url(../images/technical/all.jpg) 0 -789px;
+	width: 292px;
+	height: 184px;
+	
+}
+
+.jcarousel-skin-tango li .info
+{
+    position: absolute;
+    left: 0;
+    z-index: 800; 
+    background: #fafafa;
+    margin: 4px;
+    font-family: 'Asap', sans-serif;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    padding-right: 2px;
+}
+
+.jcarousel-skin-tango li .info p
+{
+    margin: 0;
+    line-height: 20px;
+    padding: 5px 0;
+}
+.jcarousel-item [class*="span"]
+{
+    margin-left: 10px
+}
+
+ul.social
+{
+    margin: 0px 0px 9px 22px;
+    position: absolute;
+    right: 30px;
+    top: -50px;
+    padding: 4px;
+}
+/* === Social === */
+.social li
+{
+    background-repeat: no-repeat;
+    display: inline;
+    float: left;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    margin: 3px 0 0 3px;
+    height: 33px;
+    position: relative;
+    width: 35px;
+   -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.social li:first-child
+{
+    margin: 0
+}
+.social li:active
+{
+    top: 3px
+}
+li.facebook
+{
+    background-image: url("../images/social/social.png")
+}
+li.facebook:hover
+{
+    background-position: 0 -33px
+}
+li.linkedin
+{
+    background-image: url("../images/social/social.png");
+    background-position: 0 -67px;
+}
+li.linkedin:hover
+{
+    background-position: 0 -101px
+}
+li.quora
+{
+    background-image: url("../images/social/social.png");
+    background-position: 0 -134px;
+}
+li.quora:hover
+{
+    background-position: 0 -167px
+}
+li.github
+{
+    background-image: url("../images/social/social.png");
+    background-position: 0 -200px;
+}
+li.github:hover
+{
+    background-position: 0 -233px
+}
+/* === Projects === */
+
+
+
+
+
+/* === About me === */
+.aboutme
+{
+    top: 1310px;
+    left: 14%;
+    width: 400px;
+}
+.content-box
+{
+    background: #fafafa;
+    margin: 4px;
+    font-family: 'Asap', sans-serif;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    padding: 15px 20px 20px;
+}
+/* === Contact === */
+.contact
+{
+    top: 1312px;
+    left: 1830px;
+}
+.contact-input
+{
+    width: 280px;
+    margin-left: 10px; 
+}
+#contact-name
+{
+	margin-right: 38px;
+}
+
+.contact-textarea
+{
+    width: 723px;
+    height: 200px;
+}
+.sp-canvas
+{
+    display: none
+}
+.arrow
+{
+    position: relative;
+    display: inline-block;
+}
+.demo .arrow
+{
+    font-size: 20px;
+    animation: point-down 0.5s alternate infinite;
+}
+.rotations
+{
+    left: 2185px;
+    top: 660px;
+    width: 460px;
+    transform: rotate(-90deg) translateY(2.5em);
+}
+.rotations .upside-down
+{
+    font-size: 42px;
+    text-align: right;
+    transform: rotate(180deg) translateY(3em);
+}
+.source
+{
+    left: 2200px;
+    top: -800px;
+    width: 400px;
+    transform: rotate(90deg) translateX(50px);
+}
+.follow
+{
+    width: 475px;
+    left: 1100px;
+    top: -950px;
+    transform: rotate(90deg) translateX(50px);
+}
+.follow .big
+{
+    font-size: 40px
+}
+.border-top{
+    background-image: url("../images/top-border.png");
+    background-repeat: repeat;
+    height: 5px;
+    position: absolute;
+    top: -5px;
+    width: 100%;
+}
+.border-bottom{
+    background-image: url("../images/bottom-border.png");
+    background-repeat: repeat;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    width: 100%;
+}
+/* === Tabs === */
+.tab-content{
+     background: #fff;
+     margin: 0 4px 4px 4px;
+     padding: 15px 20px 20px;
+     -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius:0 0 4px 4px;
+    -o-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+    height: 400px;
+}
+.tab-pane p{
+        margin: 0 ;
+}
+.tab-pane h4{
+      color: #333333;
+}
+
+.tabbable {
+	     height: 479px;
+}
+#project-span10 {
+	margin-left: 70px;
+}
