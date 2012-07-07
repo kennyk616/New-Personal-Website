@@ -235,12 +235,17 @@ div.home-about, div.home-contact, div.home-projects{
 	width: 292px;
 }
 
+.jcarousel-skin-tango li .thumbnail
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
 .jcarousel-skin-tango li #droids-poster
 {
 	background:url(../images/technical/all.jpg) 0 0;
 	width: 292px;
-	height: 219px;
-	
+	height: 219px;	
 }
 
 .jcarousel-skin-tango li #nom-poster
