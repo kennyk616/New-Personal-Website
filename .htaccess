@@ -1,4 +1,4 @@
-AddType x-mapp-php5 .html .htm .css .js .jpg .jpeg .png .pdf
+AddType x-mapp-php5 .html .htm
 
 # Prevent Hotlinking (increases performance)
 RewriteCond %{HTTP_REFERER} !^http://(.+\.)?@@@@@@@@@@@@@@@@@@@@\.com/ [NC]
