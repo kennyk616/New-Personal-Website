@@ -123,7 +123,6 @@ body
     color: #4eb8e0;
     
 }
-
 .wrapper .home, .wrapper .projects, .wrapper .aboutme, .wrapper .contact
 {
     position: absolute
@@ -131,6 +130,8 @@ body
 
 .home h1 a {
 	color: #4EB8E0;
+	font-family: 'Jockey One', sans-serif;
+	font-weight: normal;
 }
 
 .home a
