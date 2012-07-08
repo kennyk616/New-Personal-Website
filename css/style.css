@@ -139,7 +139,7 @@ body
 {
 	color: #EEEEEE;
 }
-.home a span
+.home a span, .social li span
 {
 	display: none;
 }
@@ -153,7 +153,7 @@ div.home-about, div.home-contact, div.home-projects{
 	position: absolute;
 	text-align: left;
 }
-.home a:hover span {
+.home a:hover span , .social li:hover span{
 	display: block;
 	position: absolute;
 	text-decoration: none;
@@ -273,30 +273,6 @@ div.home-about, div.home-contact, div.home-projects{
 	background:url(../images/technical/all.jpg) 0 -438px;
 	width: 292px;
 	height: 194px;
-	
-}
-
-.jcarousel-skin-tango li #opower-logo
-{
-	background:url(../images/technical/all.jpg) 0 -631px;
-	width: 292px;
-	height: 48px;
-	
-}
-
-.jcarousel-skin-tango li #facebook-logo
-{
-	background:url(../images/technical/all.jpg) 0 -679px;
-	width: 292px;
-	height: 110px;
-	
-}
-
-.jcarousel-skin-tango li #hp-logo
-{
-	background:url(../images/technical/all.jpg) 0 -789px;
-	width: 292px;
-	height: 184px;
 	
 }
 
@@ -441,6 +417,30 @@ li.github:hover
 {
     background-position: 0 -233px
 }
+
+.social li.facebook:hover span {
+	top: 48px; 
+	left: -17px;
+	width: 200px;
+} 
+
+.social li.linkedin:hover span {
+	top: 45px; 
+	left: -55px;
+	width: 200px;
+} 
+
+.social li.quora:hover span {
+	top: 45px; 
+	left: -93px;
+	width: 200px;
+} 
+
+.social li.github:hover span {
+	top: 45px; 
+	left: -131px;
+	width: 200px;
+} 
 /* === Projects === */
 
 
