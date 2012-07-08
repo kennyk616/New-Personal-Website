@@ -7,6 +7,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    font-family: 'Asap',sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
@@ -15,7 +16,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 body
 {
-    line-height: 1
+    line-height: 1;
+    font-family: 'Asap',sans-serif;
 }
 ol, ul
 {
@@ -228,6 +230,8 @@ div.home-about, div.home-contact, div.home-projects{
     letter-spacing: normal;
     text-transform: uppercase;
     padding: 0;
+    color: #4EB8E0;
+	font-weight: normal;
 }
 .jcarousel-skin-tango .jcarousel-item-horizontal {
     height: 400px;
@@ -243,6 +247,8 @@ div.home-about, div.home-contact, div.home-projects{
 {
     cursor: pointer;
     cursor: hand;
+    border: 0;
+    box-shadow: none;
 }
 
 .jcarousel-skin-tango li #droids-poster
@@ -327,10 +333,10 @@ div.home-about, div.home-contact, div.home-projects{
 
 .jcarousel-skin-tango li #coupa-logo
 {
-	background:url(../images/consulting/all.jpg) 0 -456px;
+	background:url(../images/consulting/all.jpg) 0 -457px;
 	width: 292px;
-	height: 100px;
-	
+	height: 97px;
+	/*full images is actually 0 -456, height: 100 */
 }
 
 
@@ -477,6 +483,7 @@ li.github:hover
 {
     width: 723px;
     height: 200px;
+    margin: 0 0 10px;
 }
 .sp-canvas
 {
@@ -569,11 +576,64 @@ li.github:hover
 	top: auto;
 	left: auto;
 }
-
+/* override css stuff*/
 .tab-wrapper {
 	background: white;
 	margin: 0 4px 4px 4px;
 	padding: 15px 20px 20px;
 	border-radius: 0 0 4px 4px;
 	height: 400px;
+}
+
+ul.nav {
+	margin: 4px 4px 0 4px;
+}
+
+ul.nav-tabs .active a, ul.nav-tabs .active a:hover {
+	color: #4EB8E0;	
+}
+
+ul.nav-tabs li a {
+	text-transform: uppercase;
+	color: #4EB8E0;
+	background-color: #EAEAEA;
+	border: 1px solid #DDD;
+	border-bottom-color: transparent;
+}
+
+.content-box p {
+	line-height: 20px;
+	font-size: 1em;
+	margin: 0 0 8px;
+}
+
+.content-box .contact-input {
+	line-height: normal;
+	margin-top: 0px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding: 4px;
+}
+
+.content-box .contact-input, .content-box .contact-textarea
+{
+		-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+-webkit-transition: border linear .2s,box-shadow linear .2s;
+transition: border linear .2s,box-shadow linear .2s;
+border: 1px solid #CCC;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+font-family: 'Asap', sans-serif;
+padding: 4px;
+}
+
+.content-box .contact-input:focus, .content-box .contact-textarea:focus {
+	border-color:rgba(82,168,236,0.8);
+	outline:0;outline:thin dotted \9;
+	-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);
+	-moz-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);
+	box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6)}
 }
