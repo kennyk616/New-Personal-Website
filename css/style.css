@@ -310,10 +310,10 @@ div.home-about, div.home-contact, div.home-projects{
 
 .jcarousel-skin-tango li #google-logo
 {
-	background:url(../images/consulting/all.jpg) 0 -130px;
+	background:url(../images/consulting/all.jpg) 0 -135px;
 	width: 292px;
-	height: 139px;
-	
+	height: 130px;
+	/* original picture: 0 -130, height 139*/
 }
 
 .jcarousel-skin-tango li #enernoc-logo
@@ -327,9 +327,9 @@ div.home-about, div.home-contact, div.home-projects{
 
 .jcarousel-skin-tango li #svcf-logo
 {
-	background:url(../images/consulting/all.jpg) 0 -364px;
+	background:url(../images/consulting/all.jpg) 0 -363px;
 	width: 292px;
-	height: 92px;
+	height: 95px;
 	
 }
 
