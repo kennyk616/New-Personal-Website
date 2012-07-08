@@ -121,6 +121,7 @@ body
     font-family: 'Jockey One', sans-serif;
     text-transform: uppercase;
     color: #4eb8e0;
+    letter-spacing: 1px;
     
 }
 .wrapper .home, .wrapper .projects, .wrapper .aboutme, .wrapper .contact
