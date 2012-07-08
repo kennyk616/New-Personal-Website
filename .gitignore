@@ -2,4 +2,5 @@
 .ssh/
 .viminfo
 logs/
+.project
 
