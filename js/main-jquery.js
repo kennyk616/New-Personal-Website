@@ -23,7 +23,7 @@ window.onload = function() {
 	}
 }
 
-jQuery(document).ready(function() {
+$(document).ready(function() {
 	jQuery('.jcarousel-skin-tango').jcarousel({
 		scroll : 2
 	});
@@ -32,6 +32,10 @@ jQuery(document).ready(function() {
 		e.preventDefault();
 		jQuery(this).tab('show');
 	})
+	init();
+	//turn off scrollbar and scrollpath
+	//$("html").css("overflow-y", "hidden");
+	
 });
 
 function switchtab(hidetab, showtab) {
@@ -42,8 +46,6 @@ function switchtab(hidetab, showtab) {
 	$(hidetab).css("z-index", "-1");
 	$(showtab).css("z-index", "1");
 }
-
-$(document).ready(init);
 
 function init() {
 	/* ========== DRAWING THE PATH AND INITIATING THE PLUGIN ============= */
