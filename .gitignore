@@ -3,4 +3,4 @@
 .viminfo
 logs/
 .project
-
+.DS_Store
