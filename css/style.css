@@ -255,9 +255,9 @@ div.home-about, div.home-contact, div.home-projects{
 
 .jcarousel-skin-tango li #nom-poster
 {
-	background:url("../images/technical/all.jpg") 0px -219px;
+	background:url("../images/technical/all.jpg") 0px -220px;
 	width: 292px;
-	height: 219px;
+	height: 217px;
 	
 }
 
@@ -265,7 +265,8 @@ div.home-about, div.home-contact, div.home-projects{
 {
 	background:url(../images/technical/all.jpg) 0 -438px;
 	width: 292px;
-	height: 194px;
+	height: 192px;
+    /* originally 194*/
 	
 }
 
