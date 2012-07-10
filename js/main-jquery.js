@@ -28,7 +28,7 @@ $(document).ready(function() {
 		scroll : 2
 	});
 	switchtab("#tab6", "#tab5");
-	jQuery('#tabs a').click(function(e) {
+	jQuery('#tab-projects a, #tab-about a').click(function(e) {
 		e.preventDefault();
 		jQuery(this).tab('show');
 	})
