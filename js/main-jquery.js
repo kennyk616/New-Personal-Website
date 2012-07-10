@@ -61,7 +61,7 @@ function init() {
 			name: "aboutme"
 		})
 		// Continue line to 'scrollbar'
-		.lineTo(2250, 1650, {
+		.lineTo(2250, 1850, {
 			name: "contact"
 		})
 		.arc(1300, 50, 900, -Math.PI/2, -Math.PI, true, {rotate: Math.PI*2, name: "end"});
