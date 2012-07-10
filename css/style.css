@@ -571,11 +571,12 @@ li.github:hover
 	margin-left: 70px;
 }
 
-#tab5, #tab6{
+#tab5, #tab6, #tab7{
 	position: absolute;
 	top: auto;
 	left: auto;
 }
+
 /* override css stuff*/
 .tab-wrapper {
 	background: white;
