@@ -106,7 +106,7 @@ body
 {
     text-align: center;
     position: relative;
-    top: -160px;
+    top: -110px;
     -webkit-transform: rotate(-20deg);
     -moz-transform: rotate(-20deg);
     -ms-transform: rotate(-20deg);
@@ -303,7 +303,7 @@ div.home-about, div.home-contact, div.home-projects{
 
 .jcarousel-skin-tango li #svcf-logo
 {
-	background:url(../images/consulting/all.jpg) 0 -363px;
+	background:url(../images/consulting/all.jpg) 0 -362px;
 	width: 292px;
 	height: 95px;
 	
