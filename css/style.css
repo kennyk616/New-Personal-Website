@@ -1,5 +1,5 @@
 /* === CSS RESET === */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
 {
     margin: 0;
     padding: 0;
@@ -8,6 +8,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font: inherit;
     vertical-align: baseline;
     font-family: 'Asap',sans-serif;
+}
+
+.row h1, .row  h2, .row  h3, .row  h4, .row  h5, .row  h6
+{
+	font-family: 'Jockey One', sans-serif;
+	color: #4eb8e0;
+	letter-spacing: 1.2px;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
@@ -118,21 +125,12 @@ body
 {
     font-size: 150px;
     line-height: 1.5em;
-    font-family: 'Jockey One', sans-serif;
     text-transform: uppercase;
-    color: #4eb8e0;
-    letter-spacing: 1px;
     
 }
 .wrapper .home, .wrapper .projects, .wrapper .aboutme, .wrapper .contact
 {
     position: absolute
-}
-
-.home h1 a {
-	color: #4EB8E0;
-	font-family: 'Jockey One', sans-serif;
-	font-weight: normal;
 }
 
 .home a
@@ -196,10 +194,6 @@ div.home-about, div.home-contact, div.home-projects{
 						left: 0px; 
 }	
 
-.page-title a {
-	color: #4EB8E0;
-}
-
 /* === projects === */
 .projects
 {
@@ -228,11 +222,9 @@ div.home-about, div.home-contact, div.home-projects{
 
 .info h3, .content-box h3
 {
-    font-family: 'Jockey One', sans-serif;
     letter-spacing: normal;
     text-transform: uppercase;
     padding: 0;
-    color: #4EB8E0;
 	font-weight: normal;
 }
 .jcarousel-skin-tango .jcarousel-item-horizontal {

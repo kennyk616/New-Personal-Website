@@ -72,7 +72,6 @@ function init() {
 	// Add scrollTo on click on the navigation anchors and homepage links
 	replacePath($("nav"));
 	replacePath($(".home"));
-	replacePath($(".page-title"));
 	replacePath($("p"));
 	
 	/* ===================================================================== */
