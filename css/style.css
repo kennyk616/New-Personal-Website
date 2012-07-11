@@ -532,7 +532,7 @@ li.github:hover
     font-size: 40px
 }
 .border-top{
-    background-image: url("../images/top-border.png");
+    background: url("../images/combined-border.png")repeat 0 0;
     background-repeat: repeat;
     height: 5px;
     position: absolute;
@@ -540,8 +540,7 @@ li.github:hover
     width: 100%;
 }
 .border-bottom{
-    background-image: url("../images/bottom-border.png");
-    background-repeat: repeat;
+    background: url("../images/combined-border.png")repeat 0 -5px;
     height: 5px;
     position: absolute;
     bottom: -5px;
@@ -681,7 +680,7 @@ padding: 4px;
     width: 32px;
     height: 32px;
     cursor: pointer;
-    background: transparent url(../images/next-horizontal.png) no-repeat 0 0;
+    background: transparent url(../images/combined-arrows.png) no-repeat 0 0;
     background-color: #888888;
     -webkit-border-radius: 50%;
     -moz-border-radius:  50%;
@@ -692,7 +691,7 @@ padding: 4px;
 .jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-next-horizontal {
     left: 5px;
     right: auto;
-    background-image: url(../images/prev-horizontal.png);
+    background-image: url(../images/combined-arrows.png);
 }
 
 .jcarousel-skin-tango .jcarousel-next-horizontal:hover,
@@ -701,7 +700,7 @@ padding: 4px;
 }
 
 .jcarousel-skin-tango .jcarousel-next-horizontal:active {
-    background-position: -64px 0;
+    background-position: 0 0;
 }
 
 .jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
@@ -719,7 +718,7 @@ padding: 4px;
     width: 32px;
     height: 32px;
     cursor: pointer;
-    background: transparent url(../images/prev-horizontal.png) no-repeat 0 0;
+    background: transparent url(../images/combined-arrows.png) no-repeat 0 -32px;
     background-color: #888888;
     -webkit-border-radius: 50%;
     -moz-border-radius:  50%;
@@ -732,16 +731,16 @@ padding: 4px;
 .jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-prev-horizontal {
     left: auto;
     right: 5px;
-    background-image: url(../images/next-horizontal.png);
+    background-image: url(../images/combined-arrows.png);
 }
 
 .jcarousel-skin-tango .jcarousel-prev-horizontal:hover, 
 .jcarousel-skin-tango .jcarousel-prev-horizontal:focus {
-    background-position: -32px 0;
+    background-position: -32px -32px;
 }
 
 .jcarousel-skin-tango .jcarousel-prev-horizontal:active {
-    background-position: -64px 0;
+    background-position: 0 -32px;
 }
 
 .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
