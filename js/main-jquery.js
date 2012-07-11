@@ -25,15 +25,15 @@ function initScrollPath() {
 
 	$.fn.scrollPath("getPath")
 		// Move to 'home' element
-		.moveTo(400, 50, {name: "home"})
+		.moveTo(1600, 50, {name: "home"})
 		// Line to 'projects' element
 		.lineTo(600, 850, {name: "projects"})
 		// Arc down and line to 'aboutme'
-    .lineTo(25, 1650, {name: "aboutme"})
+    .lineTo(600, 1650, {name: "aboutme"})
     
 		// Continue line to 'contact'
-    .lineTo(2700, 1850, {name:"contact"})
-		.arc(1300, 50, 900, -Math.PI/2, -Math.PI, true, {rotate: Math.PI*2, name: "end"});
+    .lineTo(2750, 2000, {name:"contact"})
+		.arc(2500, 50, 900, -Math.PI/2, -Math.PI, true, {rotate: Math.PI*2, name: "end"});
 
 	// We're done with the path, let's initate the plugin on our wrapper element
 	$(".wrapper").scrollPath({drawPath: true, wrapAround: true});
