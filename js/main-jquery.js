@@ -9,13 +9,15 @@ $(document).ready(function() {
 });
 
 function initializeProjectTabs(){
-    $("#tab6").css("display", "none");
-    $("#tab7").css("display", "none");
+    $("#tab6").css("visibility", "hidden");
+    $("#tab7").css("visibility", "hidden");
+
 }
 
 function switchtab(showtab_id) {
-    $(".projects .active.tab-pane").css("display", "none");
-    $(showtab_id).css("display", "block");
+    $(".projects .active.tab-pane").css("visibility", "hidden");
+    $(showtab_id).css("visibility", "visible");
+
 	}
 
 function initScrollPath() {
@@ -27,14 +29,13 @@ function initScrollPath() {
 		// Line to 'projects' element
 		.lineTo(600, 850, {name: "projects"})
 		// Arc down and line to 'aboutme'
-		.arc(200, 1200, 400, -Math.PI/2, Math.PI/2, true)
-		.lineTo(600, 1650, {
-			name: "aboutme"
-		})
+		//.arc(200, 1200, 400, -Math.PI/2, Math.PI/2, true)
+	//	.lineTo(600, 1650, {name: "aboutme"})
+    .lineTo(25, 1650, {name: "aboutme"})
+    
 		// Continue line to 'contact'
-		.lineTo(2250, 1850, {
-			name: "contact"
-		})
+		//.lineTo(2250, 1850, {name: "contact"})
+    .lineTo(2700, 1850, {name:"contact"})
 		.arc(1300, 50, 900, -Math.PI/2, -Math.PI, true, {rotate: Math.PI*2, name: "end"});
 
 	// We're done with the path, let's initate the plugin on our wrapper element

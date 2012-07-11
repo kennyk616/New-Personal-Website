@@ -199,7 +199,7 @@ div.home-about, div.home-contact, div.home-projects{
 .projects
 {
     top: 510px;
-    left: 10%;
+    left: 155px;
 }
 .page-title
 {
@@ -445,7 +445,7 @@ li.github:hover
 .aboutme
 {
     top: 1310px;
-    left: 14%;
+    left: -370px;
     width: 400px;
 }
 .content-box
@@ -467,7 +467,7 @@ li.github:hover
 .contact
 {
     top: 1512px;
-    left: 1830px;
+    left: 2310px;
 }
 .contact-input
 {
@@ -708,7 +708,7 @@ padding: 4px;
 .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:focus,
 .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
     cursor: default;
-    background-position: -97px 0;
+    visibility: hidden;
 }
 
 .jcarousel-skin-tango .jcarousel-prev-horizontal {
@@ -748,5 +748,5 @@ padding: 4px;
 .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:focus,
 .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
     cursor: default;
-    background-position: -96px 0;
+    visibility: hidden;
 }
