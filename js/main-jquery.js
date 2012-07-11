@@ -29,12 +29,9 @@ function initScrollPath() {
 		// Line to 'projects' element
 		.lineTo(600, 850, {name: "projects"})
 		// Arc down and line to 'aboutme'
-		//.arc(200, 1200, 400, -Math.PI/2, Math.PI/2, true)
-	//	.lineTo(600, 1650, {name: "aboutme"})
     .lineTo(25, 1650, {name: "aboutme"})
     
 		// Continue line to 'contact'
-		//.lineTo(2250, 1850, {name: "contact"})
     .lineTo(2700, 1850, {name:"contact"})
 		.arc(1300, 50, 900, -Math.PI/2, -Math.PI, true, {rotate: Math.PI*2, name: "end"});
 
