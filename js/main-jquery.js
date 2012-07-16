@@ -10,19 +10,24 @@ $(document).ready(function() {
 
 //this is only for firefox
 $("html").keydown(function(event) {
-    switch(event.keyCode) {
-        case 32://space
-        case 33://pgup
-        case 34://pgdn
-        case 35://end
-        case 36://home
-        case 37://left
-        case 38://up
-        case 39://right
-        case 40://down
-            return false;
-    }
-});
+    var target = event.target.nodeName;
+    var isInput = !(target=="TEXTAREA" || target=="INPUT");
+    if(isInput){
+        switch(event.keyCode) {
+            case 32://space
+          case 33://pgup
+          case 34://pgdn
+          case 35://end
+          case 36://home
+          case 37://left
+          case 38://up
+             case 39://right
+             case 40://down
+                  return false;
+             }
+
+                  }
+    });
 
 function initializeProjectTabs(){
     $("#tab6").css("visibility", "hidden");
