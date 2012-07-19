@@ -23,11 +23,11 @@ $("html").keydown(function(event) {
           case 38://up
              case 39://right
              case 40://down
-                  return false;
-             }
+             return false;
+         }
 
-                  }
-    });
+    }
+});
 
 function initializeProjectTabs(){
     $("#tab6").css("visibility", "hidden");
