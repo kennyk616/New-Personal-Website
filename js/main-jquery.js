@@ -1,12 +1,59 @@
+curItems = [[1,2], [1,2]];
+
 $(document).ready(function() {
-	jQuery('.jcarousel-skin-tango').jcarousel({
-		scroll : 2
+	jQuery('#technical-carousel').jcarousel({
+		scroll : 2,
+		itemLoadCallback: function(carousel, state) {
+			var newFirst = carousel.first;
+			var newLast = carousel.last;
+			var origFirst = curItems[0][0];
+			var origLast = curItems[0][1];
+			$("#tab5 .proj-bot .proj-bot-idx .dot" + origFirst).css("background-position", "0 0");
+			$("#tab5 .proj-bot .proj-bot-idx .dot" + origLast).css("background-position", "0 0");
+			$("#tab5 .proj-bot .proj-bot-idx .dot" + newFirst).css("background-position", "0 -10px");
+			$("#tab5 .proj-bot .proj-bot-idx .dot" + newLast).css("background-position", "0 -10px");
+			curItems[0][0] = newFirst;
+			curItems[0][1] = newLast;
+		}
 	});
+	
+	jQuery('#consulting-carousel').jcarousel({
+		scroll : 2,
+		itemLoadCallback: function(carousel, state) {
+			var newFirst = carousel.first;
+			var newLast = carousel.last;
+			var origFirst = curItems[1][0];
+			var origLast = curItems[1][1];
+			$("#tab6 .proj-bot .proj-bot-idx .dot" + origFirst).css("background-position", "0 0");
+			$("#tab6 .proj-bot .proj-bot-idx .dot" + origLast).css("background-position", "0 0");
+			$("#tab6 .proj-bot .proj-bot-idx .dot" + newFirst).css("background-position", "0 -10px");
+			$("#tab6 .proj-bot .proj-bot-idx .dot" + newLast).css("background-position", "0 -10px");
+			curItems[1][0] = newFirst;
+			curItems[1][1] = newLast;
+		}
+	});
+	
+	jQuery('#other-carousel').jcarousel();
+	
+	
+	
 	initScrollPath();
     initializeProjectTabs();
     initializeLinks();
 		
 });
+
+
+function getCurItems(carousel, state)
+{	
+	var first = ".dot" + carousel.first;
+	var last = ".dot" + carousel.last;
+	$(".proj-bot .proj-bot-idx " + first).css("background-position", "0 -10px");
+	$(".proj-bot .proj-bot-idx " + last).css("background-position", "0 -10px");
+    console.debug(carousel.first);  
+    console.debug(carousel.last);  
+    console.debug(carousel);
+}
 
 //this is only for firefox
 $("html").keydown(function(event) {

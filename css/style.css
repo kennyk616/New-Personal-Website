@@ -340,6 +340,35 @@ div.home-about, div.home-contact, div.home-projects{
     margin-left: 10px
 }
 
+.proj-bot{
+	left: 269px;
+	top: 20px;
+	position: relative;
+	text-align: center;
+}
+
+.proj-bot-idx {
+	list-style-type: none;
+}
+.proj-bot li {
+	float: left;
+	background:url('../images/dots.png') 0px 0px;
+	height: 10px;
+	width: 10px;
+	margin: 5px;
+}
+
+#tab7 .proj-bot{
+	left: 309px;
+}
+#tab7 .proj-bot li {
+	background-position: 0 -10px;
+}
+/* === Projects === */
+
+
+
+/* === Social === */
 ul.social
 {
     margin: 0px 0px 9px 22px;
@@ -348,7 +377,7 @@ ul.social
     top: -50px;
     padding: 4px;
 }
-/* === Social === */
+
 .social li
 {
     background-repeat: no-repeat;
@@ -436,7 +465,6 @@ li.github:hover
 	left: -131px;
 	width: 200px;
 } 
-/* === Projects === */
 
 
 
@@ -584,7 +612,7 @@ li.github:hover
 	margin: 0 4px 4px 4px;
 	padding: 15px 20px 20px;
 	border-radius: 0 0 4px 4px;
-	height: 400px;
+	height: 430px;
 }
 
 ul.nav {
