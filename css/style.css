@@ -358,6 +358,10 @@ div.home-about, div.home-contact, div.home-projects{
 	margin: 5px;
 }
 
+.proj-bot a:hover {
+	cursor: pointer;
+}
+
 #tab7 .proj-bot{
 	left: 309px;
 }
