@@ -350,7 +350,7 @@ div.home-about, div.home-contact, div.home-projects{
 .proj-bot-idx {
 	list-style-type: none;
 }
-.proj-bot li {
+.proj-bot a {
 	float: left;
 	background:url('../images/dots.png') 0px 0px;
 	height: 10px;
@@ -361,7 +361,7 @@ div.home-about, div.home-contact, div.home-projects{
 #tab7 .proj-bot{
 	left: 309px;
 }
-#tab7 .proj-bot li {
+#tab7 .proj-bot a {
 	background-position: 0 -10px;
 }
 /* === Projects === */
@@ -473,7 +473,7 @@ li.github:hover
 /* === About me === */
 .aboutme
 {
-    top: 1310px;
+    top: 1510px;
     left: 205px;
     width: 400px;
 }

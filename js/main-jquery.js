@@ -34,14 +34,16 @@ $(document).ready(function() {
 	});
 	
 	jQuery('#other-carousel').jcarousel();
-	
-	
-	
 	initScrollPath();
     initializeProjectTabs();
     initializeLinks();
 		
 });
+
+function scrollCarousel(carousel, item)
+{
+	$(carousel).jcarousel('scroll', item);
+}
 
 
 function getCurItems(carousel, state)
@@ -97,7 +99,7 @@ function initScrollPath() {
 		// Line to 'projects' element
 		.lineTo(600, 850, {name: "projects"})
 		// Arc down and line to 'aboutme'
-    .lineTo(600, 1650, {name: "aboutme"})
+    .lineTo(600, 1850, {name: "aboutme"})
     
 		// Continue line to 'contact'
     .lineTo(2750, 2000, {name:"contact"})
