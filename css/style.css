@@ -22,28 +22,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 {
     display: block
 }
-body
-{
-    line-height: 1;
-    font-family: 'Asap',sans-serif;
-}
 ol, ul
 {
     list-style: none
-}
-blockquote, q
-{
-    quotes: none
-}
-blockquote:before, blockquote:after, q:before, q:after
-{
-    content: '';
-    content: none;
-}
-table
-{
-    border-collapse: collapse;
-    border-spacing: 0;
 }
 /* === End of CSS RESET === */
 body
@@ -51,8 +32,8 @@ body
     background: url(../images/classy_fabric.png);
     color: white;
     font-size: 20px;
-    font-family: 'Asap', sans-serif;
     overflow: hidden;
+    line-height: 1;
 }
 /* === Navigation === */
 .bottom-content
@@ -69,9 +50,6 @@ body
     text-transform: uppercase;
     font-weight: normal;
     font-size: 14px;
-}
-.navigation
-{
     left: 0;
     padding: 0 20px;
 }
@@ -110,8 +88,7 @@ body
 }
 
 /* === Home === */
-.home
-{
+.home {
     text-align: center;
     position: relative;
     top: -110px;
@@ -123,24 +100,19 @@ body
     transform: rotate(-20deg);
 }
 
-.home h1
-{
+.home h1{
     font-size: 150px;
     line-height: 1.5em;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;   
 }
-.wrapper .home, .wrapper .projects, .wrapper .aboutme, .wrapper .contact
-{
+.wrapper .home, .wrapper .projects, .wrapper .aboutme, .wrapper .contact {
     position: absolute
 }
 
-.home a
-{
+.home a {
 	color: #EEEEEE;
 }
-.home a span, .social li span
-{
+.home a span, .social li span {
 	display: none;
 }
 
@@ -197,13 +169,11 @@ div.home-about, div.home-contact, div.home-projects{
 }	
 
 /* === projects === */
-.projects
-{
+.projects{
     top: 510px;
     left: 155px;
 }
-.page-title
-{
+.page-title{
     font-size: 26px;
     padding: 25px 50px;
 }
@@ -291,8 +261,7 @@ div.home-about, div.home-contact, div.home-projects{
 {
 	background:url(../images/consulting/all.jpg) 0 -269px;
 	width: 292px;
-	height: 95px;
-	
+	height: 95px;	
 }
 
 
@@ -301,7 +270,6 @@ div.home-about, div.home-contact, div.home-projects{
 	background:url(../images/consulting/all.jpg) 0 -362px;
 	width: 292px;
 	height: 95px;
-	
 }
 
 .jcarousel-skin-tango li #coupa-logo
@@ -320,7 +288,6 @@ div.home-about, div.home-contact, div.home-projects{
     z-index: 800; 
     background: #fafafa;
     margin: 4px;
-    font-family: 'Asap', sans-serif;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     -o-border-radius: 4px;
@@ -341,15 +308,12 @@ div.home-about, div.home-contact, div.home-projects{
 }
 
 .proj-bot{
-	left: 269px;
+	left: 289px;
 	top: 20px;
 	position: relative;
 	text-align: center;
 }
 
-.proj-bot-idx {
-	list-style-type: none;
-}
 .proj-bot a {
 	float: left;
 	background:url('../images/dots3.png') 0px 0px;
@@ -363,14 +327,12 @@ div.home-about, div.home-contact, div.home-projects{
 }
 
 #tab7 .proj-bot{
-	left: 309px;
+	left: 329px;
 }
 #tab7 .proj-bot a {
 	background-position: 0 -10px;
 }
-/* === Projects === */
-
-
+/* === Projects End=== */
 
 /* === Social === */
 ul.social
@@ -470,16 +432,11 @@ li.github:hover
 	width: 200px;
 } 
 
-
-
-
-
 /* === About me === */
 .aboutme
 {
     top: 1510px;
     left: 205px;
-    width: 400px;
 }
 .content-box
 {
@@ -519,65 +476,19 @@ li.github:hover
     height: 200px;
     margin: 0 0 10px;
 }
-.sp-canvas
-{
-    display: none
-}
-.arrow
-{
-    position: relative;
-    display: inline-block;
-}
-.demo .arrow
-{
-    font-size: 20px;
-    animation: point-down 0.5s alternate infinite;
-}
-.rotations
-{
-    left: 2185px;
-    top: 660px;
-    width: 460px;
-    transform: rotate(-90deg) translateY(2.5em);
-}
-.rotations .upside-down
-{
-    font-size: 42px;
-    text-align: right;
-    transform: rotate(180deg) translateY(3em);
-}
-.source
-{
-    left: 2200px;
-    top: -800px;
-    width: 400px;
-    transform: rotate(90deg) translateX(50px);
-}
-.follow
-{
-    width: 475px;
-    left: 1100px;
-    top: -950px;
-    transform: rotate(90deg) translateX(50px);
-}
-.follow .big
-{
-    font-size: 40px
+
+.border-top, .border-bottom {
+    height: 5px;
+    position: absolute;
+    width: 100%;
 }
 .border-top{
     background: url("../images/combined-border.png")repeat 0 0;
-    background-repeat: repeat;
-    height: 5px;
-    position: absolute;
     top: -5px;
-    width: 100%;
 }
 .border-bottom{
     background: url("../images/combined-border.png")repeat 0 -5px;
-    height: 5px;
-    position: absolute;
     bottom: -5px;
-    width: 100%;
 }
 /* === Tabs === */
 .tab-content{
@@ -592,9 +503,6 @@ li.github:hover
 }
 .tab-pane p{
         margin: 0 ;
-}
-.tab-pane h4{
-      color: #333333;
 }
 
 .tabbable {
@@ -706,25 +614,22 @@ padding: 4px;
 /**
  *  Horizontal Buttons
  */
-.jcarousel-skin-tango .jcarousel-next-horizontal {
-    position: absolute;
+.jcarousel-skin-tango .jcarousel-next-horizontal, .jcarousel-skin-tango .jcarousel-prev-horizontal{
+	position: absolute;
     top: 40%;
-    right: 5px;
     width: 32px;
     height: 32px;
     cursor: pointer;
-    background: transparent url(../images/combined-arrows.png) no-repeat 0 0;
-    background-color: #888888;
     -webkit-border-radius: 50%;
     -moz-border-radius:  50%;
     -o-border-radius:  50%;
     border-radius:  50%;
+    background: #888 url(../images/combined-arrows.png) no-repeat;
 }
 
-.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-next-horizontal {
-    left: 5px;
-    right: auto;
-    background-image: url(../images/combined-arrows.png);
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    right: 5px;
+	background-position: 0px 0px;
 }
 
 .jcarousel-skin-tango .jcarousel-next-horizontal:hover,
@@ -737,35 +642,16 @@ padding: 4px;
 }
 
 .jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
-.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
-.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:focus,
-.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal{
     cursor: default;
     visibility: hidden;
 }
 
 .jcarousel-skin-tango .jcarousel-prev-horizontal {
-    position: absolute;
-    top: 40%;
     left: 5px;
-    width: 32px;
-    height: 32px;
-    cursor: pointer;
-    background: transparent url(../images/combined-arrows.png) no-repeat 0 -32px;
-    background-color: #888888;
-    -webkit-border-radius: 50%;
-    -moz-border-radius:  50%;
-    -o-border-radius:  50%;
-    border-radius:  50%;
-    
+    background-position: 0 -32px;
 }
 
-
-.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-prev-horizontal {
-    left: auto;
-    right: 5px;
-    background-image: url(../images/combined-arrows.png);
-}
 
 .jcarousel-skin-tango .jcarousel-prev-horizontal:hover, 
 .jcarousel-skin-tango .jcarousel-prev-horizontal:focus {
@@ -774,12 +660,4 @@ padding: 4px;
 
 .jcarousel-skin-tango .jcarousel-prev-horizontal:active {
     background-position: 0 -32px;
-}
-
-.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
-.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
-.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:focus,
-.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
-    cursor: default;
-    visibility: hidden;
 }
