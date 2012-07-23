@@ -137,7 +137,7 @@ div.home-about, div.home-contact, div.home-projects{
 .home-projects {
     width: 320px;
 	position: relative;
-	left: 250px;
+	left: 300px;
 	top: -3px;
 	font-size: 60px;
 }
@@ -146,7 +146,7 @@ div.home-about, div.home-contact, div.home-projects{
     width: 270px;
 	font-size: 50px;
 	position: relative;
-	left: 330px;
+	left: 250px;
 	top: 190px;
 }
 
@@ -154,8 +154,8 @@ div.home-about, div.home-contact, div.home-projects{
     width: 270px;
 	font-size: 30px;
 	position: relative;
-	left: 440px;
-	top: -45px;
+	left: 445px;
+	top: 235px;
 }
 
 .home-projects a:hover span {top: 45px; 
