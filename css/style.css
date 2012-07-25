@@ -137,7 +137,7 @@ div.home-about, div.home-contact, div.home-projects{
 .home-projects {
     width: 320px;
 	position: relative;
-	left: 250px;
+	left: 300px;
 	top: -3px;
 	font-size: 60px;
 }
@@ -146,7 +146,7 @@ div.home-about, div.home-contact, div.home-projects{
     width: 270px;
 	font-size: 50px;
 	position: relative;
-	left: 330px;
+	left: 250px;
 	top: 190px;
 }
 
@@ -154,8 +154,8 @@ div.home-about, div.home-contact, div.home-projects{
     width: 270px;
 	font-size: 30px;
 	position: relative;
-	left: 440px;
-	top: -45px;
+	left: 445px;
+	top: 235px;
 }
 
 .home-projects a:hover span {top: 45px; 
@@ -170,7 +170,7 @@ div.home-about, div.home-contact, div.home-projects{
 
 /* === projects === */
 .projects{
-    top: 510px;
+    top: 710px;
     left: 155px;
 }
 .page-title{
@@ -409,8 +409,8 @@ li.github:hover
 /* === About me === */
 .aboutme
 {
-    top: 1510px;
-    left: 205px;
+    top: 1710px;
+    left: 1205px;
 }
 .content-box
 {
@@ -430,8 +430,8 @@ li.github:hover
 /* === Contact === */
 .contact
 {
-    top: 1662px;
-    left: 2360px;
+    top: 710px;
+    left: 2210px;
 }
 .contact-input
 {
@@ -490,7 +490,7 @@ li.github:hover
 	margin: 0 4px 4px 4px;
 	padding: 15px 20px 20px;
 	border-radius: 0 0 4px 4px;
-	height: 430px;
+	height: 415px;
 }
 
 ul.nav {

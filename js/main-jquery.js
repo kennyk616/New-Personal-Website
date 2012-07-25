@@ -30,7 +30,6 @@ $("html").keydown(function(event) {
 				//down
 				return false;
 		}
-
 	}
 });
 
@@ -53,25 +52,27 @@ function initScrollPath() {
 	.moveTo(1600, 50, {
 		name : "home"
 	})
-	// Line to 'projects' element
-	.lineTo(600, 850, {
-		name : "projects"
+	
+	.lineTo(600, 1050, {
+		name: "projects"
 	})
-	// Arc down and line to 'aboutme'
-	.lineTo(600, 1850, {
-		name : "aboutme"
+	
+	.lineTo(1600, 2050, {
+		name: "aboutme"
 	})
-
-	// Continue line to 'contact'
-	.lineTo(2750, 2000, {
-		name : "contact"
-	}).arc(2500, 50, 900, -Math.PI / 2, -Math.PI, true, {
-		rotate : Math.PI * 2,
-		name : "end"
-	});
-
+	
+	.lineTo(2600, 1050, {
+		name: "contact"
+	})
+	
+	.lineTo(1600, 50, {
+		name: "end"
+	})
+	
+	
 	// We're done with the path, let's initate the plugin on our wrapper element
 	$(".wrapper").scrollPath({
+		//drawPath: true,
 		wrapAround : true
 	});
 
@@ -80,7 +81,6 @@ function initScrollPath() {
 	replacePath($(".home"));
 	replacePath($("p"));
 	/* ===================================================================== */
-
 }
 
 function replacePath(elem) {
