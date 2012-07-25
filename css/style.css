@@ -199,139 +199,113 @@ div.home-about, div.home-contact, div.home-projects{
     padding: 0;
 	font-weight: normal;
 }
-.jcarousel-skin-tango .jcarousel-item-horizontal {
-    height: 400px;
+
+#project-span10 {
+	margin-left: 30px;
+	height: 500px;
+	width: 850px;
 }
 
-.jcarousel-skin-tango li .youtube
-{
-	width: 292px;
-    height: 164px;
+#tab5, #tab6, #tab7{
+	position: absolute;
+	top: auto;
+	left: auto;
 }
 
-.jcarousel-skin-tango li .thumbnail
-{
-    cursor: pointer;
-    cursor: hand;
-    border: 0;
-    box-shadow: none;
+#project-span10 .thumbnail {
+	padding: 2px;
+	border: 0;
+	box-shadow: none;
+
 }
 
-.jcarousel-skin-tango li #droids-poster
-{
-	background:url(../images/technical/all.jpg) 0 0;
-	width: 292px;
-	height: 219px;	
+#project-span10 .row {
+	margin-bottom: 50px;
 }
 
-.jcarousel-skin-tango li #nom-poster
-{
-	background:url("../images/technical/all.jpg") 0px -220px;
-	width: 292px;
-	height: 217px;
-	
+#project-span10 .row .first-item {
+	margin-left: 0px;
 }
 
-.jcarousel-skin-tango li #music-poster
-{
-	background:url(../images/technical/all.jpg) 0 -438px;
-	width: 292px;
-	height: 192px;
-    /* originally 194*/
-	
-}
-
-.jcarousel-skin-tango li #grupo-logo
-{
-	background:url(../images/consulting/all.jpg) 0 0px;
-	width: 292px;
-	height: 130px;
-	
-}
-
-.jcarousel-skin-tango li #google-logo
-{
-	background:url(../images/consulting/all.jpg) 0 -135px;
-	width: 292px;
-	height: 130px;
-	/* original picture: 0 -130, height 139*/
-}
-
-.jcarousel-skin-tango li #enernoc-logo
-{
-	background:url(../images/consulting/all.jpg) 0 -269px;
-	width: 292px;
-	height: 95px;	
-}
-
-
-.jcarousel-skin-tango li #svcf-logo
-{
-	background:url(../images/consulting/all.jpg) 0 -362px;
-	width: 292px;
-	height: 95px;
-}
-
-.jcarousel-skin-tango li #coupa-logo
-{
-	background:url(../images/consulting/all.jpg) 0 -457px;
-	width: 292px;
-	height: 97px;
-	/*full images is actually 0 -456, height: 100 */
-}
-
-
-.jcarousel-skin-tango li .info
-{
-    position: absolute;
-    left: 0;
-    z-index: 800; 
-    background: #fafafa;
-    margin: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -o-border-radius: 4px;
-    border-radius: 4px;
-    padding-right: 2px;
-    width: 292px;
-}
-
-.jcarousel-skin-tango li .info p
-{
-    margin: 0;
-    line-height: 20px;
-    padding: 5px 0;
-}
-.jcarousel-item [class*="span"]
-{
-    margin-left: 10px
-}
-
-.proj-bot{
-	left: 289px;
-	top: 20px;
-	position: relative;
-	text-align: center;
-}
-
-.proj-bot a {
+#project-span10 .row li{
+	display: inline;
 	float: left;
-	background:url('../images/dots3.png') 0px 0px;
-	height: 10px;
-	width: 10px;
-	margin: 5px;
+	margin-left: 36px;
 }
 
-.proj-bot a:hover {
-	cursor: pointer;
+
+#project-span10 ul {
+	list-style: none;
 }
 
-#tab7 .proj-bot{
-	left: 329px;
+#project-span10 li #youmote-thumbnail
+{
+	background:url(../images/projects.png) 0 0;
+	width: 125px;
+	height: 125px;
 }
-#tab7 .proj-bot a {
-	background-position: 0 -10px;
+
+#project-span10 li #droids-thumbnail
+{
+	background:url(../images/projects.png) 0 -125px;
+	width: 125px;
+	height: 125px;
 }
+
+#project-span10 li #gesture-thumbnail
+{
+	background:url(../images/projects.png) 0 -250px;
+	width: 125px;
+	height: 125px;
+}
+
+#project-span10 li #nom-thumbnail
+{
+	background:url(../images/projects.png) 0 -375px;
+	width: 125px;
+	height: 125px;
+}
+
+#project-span10 li #music-thumbnail
+{
+	background:url(../images/projects.png) 0 -500px;
+	width: 125px;
+	height: 125px;
+}
+
+#project-span10 li #opower-thumbnail
+{
+	background:url(../images/projects.png) 0 -625px;
+	width: 125px;
+	height: 125px;
+}
+
+#project-span10 li #facebook-thumbnail
+{
+	background:url(../images/projects.png) 0 -750px;
+	width: 125px;
+	height: 125px;
+}
+
+#project-span10 li #hp-thumbnail
+{
+	background:url(../images/projects.png) 0 -875px;
+	width: 125px;
+	height: 125px;
+}
+
+.zoom {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    width: 125px;
+    height: 125px;
+    display: block;
+}
+
+
 /* === Projects End=== */
 
 /* === Social === */
@@ -508,15 +482,7 @@ li.github:hover
 .tabbable {
 	     height: 479px;
 }
-#project-span10 {
-	margin-left: 70px;
-}
 
-#tab5, #tab6, #tab7{
-	position: absolute;
-	top: auto;
-	left: auto;
-}
 
 /* override css stuff*/
 .tab-wrapper {
@@ -579,85 +545,3 @@ padding: 4px;
 	-moz-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6);
 	box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(82,168,236,0.6)}
 
-/* jcarousel skin styles */
-.jcarousel-skin-tango .jcarousel-direction-rtl {
-	direction: rtl;
-}
-
-.jcarousel-skin-tango .jcarousel-container-horizontal {
-    width: 640px;
-    height: 400px;
-    padding: 0 45px;
-}
-
-
-.jcarousel-skin-tango .jcarousel-clip {
-    overflow: hidden;
-}
-
-
-.jcarousel-skin-tango .jcarousel-item-horizontal {
-	margin-left: 0;
-    margin-right: 10px;
-}
-
-.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal {
-	margin-left: 20px;
-    margin-right: 0;
-}
-
-.jcarousel-skin-tango .jcarousel-item-placeholder {
-    background: #fff;
-    color: #000;
-}
-
-/**
- *  Horizontal Buttons
- */
-.jcarousel-skin-tango .jcarousel-next-horizontal, .jcarousel-skin-tango .jcarousel-prev-horizontal{
-	position: absolute;
-    top: 40%;
-    width: 32px;
-    height: 32px;
-    cursor: pointer;
-    -webkit-border-radius: 50%;
-    -moz-border-radius:  50%;
-    -o-border-radius:  50%;
-    border-radius:  50%;
-    background: #888 url(../images/combined-arrows.png) no-repeat;
-}
-
-.jcarousel-skin-tango .jcarousel-next-horizontal {
-    right: 5px;
-	background-position: 0px 0px;
-}
-
-.jcarousel-skin-tango .jcarousel-next-horizontal:hover,
-.jcarousel-skin-tango .jcarousel-next-horizontal:focus {
-    background-position: -32px 0;
-}
-
-.jcarousel-skin-tango .jcarousel-next-horizontal:active {
-    background-position: 0 0;
-}
-
-.jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
-.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal{
-    cursor: default;
-    visibility: hidden;
-}
-
-.jcarousel-skin-tango .jcarousel-prev-horizontal {
-    left: 5px;
-    background-position: 0 -32px;
-}
-
-
-.jcarousel-skin-tango .jcarousel-prev-horizontal:hover, 
-.jcarousel-skin-tango .jcarousel-prev-horizontal:focus {
-    background-position: -32px -32px;
-}
-
-.jcarousel-skin-tango .jcarousel-prev-horizontal:active {
-    background-position: 0 -32px;
-}

@@ -1,53 +1,8 @@
-curItems = [[1, 2], [1, 2]];
-
 $(document).ready(function() {
-	jQuery('#technical-carousel').jcarousel({
-		scroll : 2,
-		itemLoadCallback : function(carousel, state) {
-			colorDots(carousel, "#tab5", 0);
-		}
-	});
-
-	jQuery('#consulting-carousel').jcarousel({
-		scroll : 2,
-		itemLoadCallback : function(carousel, state) {
-			colorDots(carousel, "#tab6", 1);
-		}
-	});
-
-	jQuery('#other-carousel').jcarousel();
 	initScrollPath();
 	initializeProjectTabs();
 	initializeLinks();
 });
-
-function colorDots(carousel, tabName, carouselIdx) {
-	var newFirst = carousel.first;
-	var newLast = carousel.last;
-	var origFirst = curItems[carouselIdx][0];
-	var origLast = curItems[carouselIdx][1];
-	$(tabName + " .proj-bot .dot" + origFirst).css("background-position", "0 0");
-	$(tabName + " .proj-bot .dot" + origLast).css("background-position", "0 0");
-	$(tabName + " .proj-bot .dot" + newFirst).css("background-position", "0 -10px");
-	$(tabName + " .proj-bot .dot" + newLast).css("background-position", "0 -10px");
-	curItems[carouselIdx][0] = newFirst;
-	curItems[carouselIdx][1] = newLast;
-}
-
-function scrollCarousel(carousel, item) {
-	$(carousel).jcarousel('scroll', item);
-	return false;
-}
-
-function getCurItems(carousel, state) {
-	var first = ".dot" + carousel.first;
-	var last = ".dot" + carousel.last;
-	$(".proj-bot " + first).css("background-position", "0 -10px");
-	$(".proj-bot " + last).css("background-position", "0 -10px");
-	console.debug(carousel.first);
-	console.debug(carousel.last);
-	console.debug(carousel);
-}
 
 //this is only for firefox
 $("html").keydown(function(event) {
