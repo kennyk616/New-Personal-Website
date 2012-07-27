@@ -1,7 +1,16 @@
 $(document).ready(function() {
 	initScrollPath();
-	initializeProjectTabs();
 	initializeLinks();
+	$(".gallery a[rel^='prettyPhoto']").prettyPhoto({
+		animation_speed:'normal',
+		theme:'facebook',
+		slideshow:3000, 
+		autoplay_slideshow: false,
+		social_tools: false,
+		deeplinking: false,
+		overlay_gallery: false
+	});
+    
 });
 
 //this is only for firefox
@@ -33,17 +42,6 @@ $("html").keydown(function(event) {
 	}
 });
 
-function initializeProjectTabs() {
-	$("#tab6").css("visibility", "hidden");
-	$("#tab7").css("visibility", "hidden");
-
-}
-
-function switchtab(showtab_id) {
-	$(".projects .active.tab-pane").css("visibility", "hidden");
-	$(showtab_id).css("visibility", "visible");
-}
-
 function initScrollPath() {
 	/* ========== DRAWING THE PATH AND INITIATING THE PLUGIN ============= */
 
@@ -67,8 +65,7 @@ function initScrollPath() {
 	
 	.lineTo(1600, 50, {
 		name: "end"
-	})
-	
+	})	
 	
 	// We're done with the path, let's initate the plugin on our wrapper element
 	$(".wrapper").scrollPath({

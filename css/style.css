@@ -39,7 +39,7 @@ body
 .bottom-content
 {
     position: fixed;
-    z-index: 9999999;
+    z-index: 9000;
     bottom: 20px;
     right: 0;
     left: 0;
@@ -125,7 +125,7 @@ div.home-about, div.home-contact, div.home-projects{
 	position: absolute;
 	text-align: left;
 }
-.home a:hover span , .social li:hover span{
+.home a:hover span, .social li:hover span {
 	display: block;
 	position: absolute;
 	text-decoration: none;
@@ -171,7 +171,7 @@ div.home-about, div.home-contact, div.home-projects{
 /* === projects === */
 .projects{
     top: 710px;
-    left: 155px;
+    left: 105px;
 }
 .page-title{
     font-size: 26px;
@@ -192,7 +192,7 @@ div.home-about, div.home-contact, div.home-projects{
     border-radius: 4px;
 }
 
-.info h3, .content-box h3
+.thumbnail h3, .content-box h3
 {
     letter-spacing: normal;
     text-transform: uppercase;
@@ -200,13 +200,34 @@ div.home-about, div.home-contact, div.home-projects{
 	font-weight: normal;
 }
 
+#project-span10 .thumbnail a {
+	width: 125px;
+	height: 125px;
+	display: block;
+}
+
+#project-span10 li p {
+	position: relative;
+	line-height: 17px;
+		text-align: center;
+			top: 5px;
+	font-size: 16px;
+}
+
+#project-span10 .thumbnail a p {
+	display: none;
+}
+
+#project-span10 .tab-pane li:hover p {
+	color: #4EB8E0;
+}
+
 #project-span10 {
-	margin-left: 30px;
-	height: 500px;
+	margin-left: 70px;
 	width: 850px;
 }
 
-#tab5, #tab6, #tab7{
+#tab5, #tab6{
 	position: absolute;
 	top: auto;
 	left: auto;
@@ -216,21 +237,33 @@ div.home-about, div.home-contact, div.home-projects{
 	padding: 2px;
 	border: 0;
 	box-shadow: none;
-
+	background: rgba(10,10,10, 0.5);
+		 -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
 }
 
-#project-span10 .row {
-	margin-bottom: 50px;
+#project-span10 .tab-pane li {
+	margin-left: 18px;
+	margin-right: 18px;
+	display: inline;
+	float: left;
 }
 
-#project-span10 .row .first-item {
+#project-span10 .tab-pane li.first-item {
 	margin-left: 0px;
 }
 
-#project-span10 .row li{
-	display: inline;
-	float: left;
-	margin-left: 36px;
+
+#project-span10 .thumbnail:hover
+{
+	background-color: #4eb8e0;
+}
+
+#project-span10 .row {
+	margin-bottom: 53px;
+	margin-top: 10px;
 }
 
 
@@ -240,69 +273,182 @@ div.home-about, div.home-contact, div.home-projects{
 
 #project-span10 li #youmote-thumbnail
 {
-	background:url(../images/projects.png) 0 0;
+	background:url(../images/projects/projects.jpg) 0 0;
 	width: 125px;
 	height: 125px;
+}
+
+#project-span10 li #youmote-thumbnail:hover
+{
+	background-position: 125px 0;
 }
 
 #project-span10 li #droids-thumbnail
 {
-	background:url(../images/projects.png) 0 -125px;
+	background:url(../images/projects/projects.jpg) 0 -125px;
 	width: 125px;
 	height: 125px;
+}
+
+#project-span10 li #droids-thumbnail:hover
+{
+	background-position: 125px -125px;
 }
 
 #project-span10 li #gesture-thumbnail
 {
-	background:url(../images/projects.png) 0 -250px;
+	background:url(../images/projects/projects.jpg) 0 -250px;
 	width: 125px;
 	height: 125px;
+}
+
+#project-span10 li #gesture-thumbnail:hover
+{
+	background-position: 125px -250px;
 }
 
 #project-span10 li #nom-thumbnail
 {
-	background:url(../images/projects.png) 0 -375px;
+	background:url(../images/projects/projects.jpg) 0 -375px;
 	width: 125px;
 	height: 125px;
+}
+
+#project-span10 li #nom-thumbnail:hover
+{
+	background-position: 125px -375px;
 }
 
 #project-span10 li #music-thumbnail
 {
-	background:url(../images/projects.png) 0 -500px;
+	background:url(../images/projects/projects.jpg) 0 -500px;
 	width: 125px;
 	height: 125px;
+}
+
+#project-span10 li #music-thumbnail:hover
+{
+	background-position: 125px -500px;
+}
+
+#project-span10 li #palantir-thumbnail
+{
+	background:url(../images/projects/projects.jpg) 0 -1750px;
+	width: 125px;
+	height: 125px;
+}
+
+#project-span10 li #palantir-thumbnail:hover
+{
+	background-position: 125px -1750px;
 }
 
 #project-span10 li #opower-thumbnail
 {
-	background:url(../images/projects.png) 0 -625px;
+	background:url(../images/projects/projects.jpg) 0 -625px;
 	width: 125px;
 	height: 125px;
+}
+
+#project-span10 li #opower-thumbnail:hover
+{
+	background-position: 125px -625px;
 }
 
 #project-span10 li #facebook-thumbnail
 {
-	background:url(../images/projects.png) 0 -750px;
+	background:url(../images/projects/projects.jpg) 0 -750px;
 	width: 125px;
 	height: 125px;
+}
+
+#project-span10 li #facebook-thumbnail:hover
+{
+	background-position: 125px -750px;
 }
 
 #project-span10 li #hp-thumbnail
 {
-	background:url(../images/projects.png) 0 -875px;
+	background:url(../images/projects/projects.jpg) 0 -875px;
 	width: 125px;
 	height: 125px;
 }
 
-.zoom {
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    width: 125px;
-    height: 125px;
-    display: block;
+#project-span10 li #hp-thumbnail:hover
+{
+	background-position: 125px -875px;
+}
+
+#project-span10 li #rbs-thumbnail
+{
+	background:url(../images/projects/projects.jpg) 0 -1000px;
+	width: 125px;
+	height: 125px;
+}
+
+#project-span10 li #rbs-thumbnail:hover
+{
+	background-position: 125px -1000px;
+}
+
+#project-span10 li #google-thumbnail
+{
+	background:url(../images/projects/projects.jpg) 0 -1125px;
+	width: 125px;
+	height: 125px;
+}
+
+#project-span10 li #google-thumbnail:hover
+{
+	background-position: 125px -1125px;
+}
+
+#project-span10 li #enernoc-thumbnail
+{
+	background:url(../images/projects/projects.jpg) 0 -1250px;
+	width: 125px;
+	height: 125px;
+}
+
+#project-span10 li #enernoc-thumbnail:hover
+{
+	background-position: 125px -1250px;
+}
+
+#project-span10 li #svcf-thumbnail
+{
+	background:url(../images/projects/projects.jpg) 0 -1375px;
+	width: 125px;
+	height: 125px;
+}
+
+#project-span10 li #svcf-thumbnail:hover
+{
+	background-position: 125px -1375px;
+}
+
+#project-span10 li #coupa-thumbnail
+{
+	background:url(../images/projects/projects.jpg) 0 -1500px;
+	width: 125px;
+	height: 125px;
+}
+
+#project-span10 li #coupa-thumbnail:hover
+{
+	background-position: 125px -1500px;
+}
+
+#project-span10 li #zen-mobile-thumbnail
+{
+	background:url(../images/projects/projects.jpg) 0 -1625px;
+	width: 125px;
+	height: 125px;
+}
+
+#project-span10 li #zen-mobile-thumbnail:hover
+{
+	background-position: 125px -1625px;
 }
 
 
@@ -410,8 +556,13 @@ li.github:hover
 .aboutme
 {
     top: 1710px;
-    left: 1205px;
+    left: 1190px;
 }
+
+.aboutme .content-box {
+	height: 436px;
+}
+
 .content-box
 {
     background: #fafafa;
@@ -431,7 +582,7 @@ li.github:hover
 .contact
 {
     top: 710px;
-    left: 2210px;
+    left: 2190px;
 }
 .contact-input
 {
