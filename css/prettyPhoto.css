@@ -285,6 +285,7 @@ div.ppt
     margin: 0 0 5px 15px;
 }
 div.facebook .pp_content .ppt, div.facebook #pp_full_res .pp_inline {    color: #000 }
+div.facebook .pp_details {position: relative}
 div.facebook .pp_content {    background: #fff }
 div.light_rounded .pp_gallery a.pp_arrow_previous, div.light_rounded .pp_gallery a.pp_arrow_next, div.dark_rounded .pp_gallery a.pp_arrow_previous, div.dark_rounded .pp_gallery a.pp_arrow_next, div.dark_square .pp_gallery a.pp_arrow_previous, div.dark_square .pp_gallery a.pp_arrow_next, div.light_square .pp_gallery a.pp_arrow_previous, div.light_square .pp_gallery a.pp_arrow_next {    margin-top: 12px!important }
 div.light_rounded .pp_arrow_previous.disabled, div.dark_rounded .pp_arrow_previous.disabled, div.dark_square .pp_arrow_previous.disabled, div.light_square .pp_arrow_previous.disabled
