@@ -271,7 +271,7 @@ div.home-about, div.home-contact, div.home-projects{
 	height: 125px;
 }
 
-#project-span10 li #youmote-thumbnail:hover
+#project-span10 li:hover #youmote-thumbnail
 {
 	background-position: 125px 0;
 }
@@ -283,7 +283,7 @@ div.home-about, div.home-contact, div.home-projects{
 	height: 125px;
 }
 
-#project-span10 li #droids-thumbnail:hover
+#project-span10 li:hover #droids-thumbnail
 {
 	background-position: 125px -125px;
 }
@@ -295,7 +295,7 @@ div.home-about, div.home-contact, div.home-projects{
 	height: 125px;
 }
 
-#project-span10 li #gesture-thumbnail:hover
+#project-span10 li:hover #gesture-thumbnail
 {
 	background-position: 125px -250px;
 }
@@ -307,7 +307,7 @@ div.home-about, div.home-contact, div.home-projects{
 	height: 125px;
 }
 
-#project-span10 li #nom-thumbnail:hover
+#project-span10 li:hover #nom-thumbnail
 {
 	background-position: 125px -375px;
 }
@@ -319,7 +319,7 @@ div.home-about, div.home-contact, div.home-projects{
 	height: 125px;
 }
 
-#project-span10 li #music-thumbnail:hover
+#project-span10 li:hover #music-thumbnail
 {
 	background-position: 125px -500px;
 }
@@ -331,7 +331,7 @@ div.home-about, div.home-contact, div.home-projects{
 	height: 125px;
 }
 
-#project-span10 li #palantir-thumbnail:hover
+#project-span10 li:hover #palantir-thumbnail
 {
 	background-position: 125px -1750px;
 }
@@ -343,7 +343,7 @@ div.home-about, div.home-contact, div.home-projects{
 	height: 125px;
 }
 
-#project-span10 li #opower-thumbnail:hover
+#project-span10 li:hover #opower-thumbnail:hover
 {
 	background-position: 125px -625px;
 }
@@ -355,7 +355,7 @@ div.home-about, div.home-contact, div.home-projects{
 	height: 125px;
 }
 
-#project-span10 li #facebook-thumbnail:hover
+#project-span10 li:hover #facebook-thumbnail
 {
 	background-position: 125px -750px;
 }
@@ -367,7 +367,7 @@ div.home-about, div.home-contact, div.home-projects{
 	height: 125px;
 }
 
-#project-span10 li #hp-thumbnail:hover
+#project-span10 li:hover #hp-thumbnail
 {
 	background-position: 125px -875px;
 }
@@ -379,7 +379,7 @@ div.home-about, div.home-contact, div.home-projects{
 	height: 125px;
 }
 
-#project-span10 li #rbs-thumbnail:hover
+#project-span10 li:hover #rbs-thumbnail
 {
 	background-position: 125px -1000px;
 }
@@ -391,7 +391,7 @@ div.home-about, div.home-contact, div.home-projects{
 	height: 125px;
 }
 
-#project-span10 li #google-thumbnail:hover
+#project-span10 li:hover #google-thumbnail
 {
 	background-position: 125px -1125px;
 }
@@ -403,7 +403,7 @@ div.home-about, div.home-contact, div.home-projects{
 	height: 125px;
 }
 
-#project-span10 li #enernoc-thumbnail:hover
+#project-span10 li:hover #enernoc-thumbnail
 {
 	background-position: 125px -1250px;
 }
@@ -415,7 +415,7 @@ div.home-about, div.home-contact, div.home-projects{
 	height: 125px;
 }
 
-#project-span10 li #svcf-thumbnail:hover
+#project-span10 li:hover #svcf-thumbnail
 {
 	background-position: 125px -1375px;
 }
@@ -427,7 +427,7 @@ div.home-about, div.home-contact, div.home-projects{
 	height: 125px;
 }
 
-#project-span10 li #coupa-thumbnail:hover
+#project-span10 li:hover #coupa-thumbnail
 {
 	background-position: 125px -1500px;
 }
@@ -439,7 +439,7 @@ div.home-about, div.home-contact, div.home-projects{
 	height: 125px;
 }
 
-#project-span10 li #zen-mobile-thumbnail:hover
+#project-span10 li:hover #zen-mobile-thumbnail
 {
 	background-position: 125px -1625px;
 }
