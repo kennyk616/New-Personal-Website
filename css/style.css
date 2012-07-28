@@ -199,21 +199,29 @@ div.home-about, div.home-contact, div.home-projects{
 	display: block;
 }
 
-#project-span10 li p {
-	position: relative;
-	line-height: 17px;
-		text-align: center;
-			top: 5px;
-	font-size: 16px;
-}
-
 #project-span10 .thumbnail a p {
 	display: none;
 }
 
-#project-span10 .tab-pane li:hover p {
-	color: #4EB8E0;
+#project-span10 .tab-pane li:hover a {
+	text-decoration: none;
 }
+
+#project-span10 .tab-pane li:hover a span{
+	color: #4EB8E0;
+	text-decoration: none;
+}
+
+#project-span10 .tab-pane li a span {
+	position: relative;
+	line-height: 17px;
+	text-align: center;
+	top: 130px;
+	font-size: 16px;
+	color: #333;
+	display: block;
+}
+
 
 #project-span10 {
 	margin-left: 70px;
@@ -255,7 +263,7 @@ div.home-about, div.home-contact, div.home-projects{
 }
 
 #project-span10 .row {
-	margin-bottom: 30px;
+	margin-bottom: 75px;
 	margin-top: 10px;
 }
 
@@ -629,14 +637,6 @@ li.github:hover
 
 
 /* override css stuff*/
-.tab-wrapper {
-	background: white;
-	margin: 0 4px 4px 4px;
-	padding: 15px 20px 20px;
-	border-radius: 0 0 4px 4px;
-	height: 415px;
-}
-
 ul.nav {
 	margin: 4px 4px 0 4px;
 }
