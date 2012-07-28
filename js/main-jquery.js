@@ -1,6 +1,5 @@
 $(document).ready(function() {
 	initScrollPath();
-	initializeLinks();
 	$(".gallery a[rel^='prettyPhoto']").prettyPhoto({
 		animation_speed:'normal',
 		theme:'facebook',
@@ -98,11 +97,4 @@ function replacePath(elem) {
 			});
 		}
 	});
-}
-
-function initializeLinks() {
-	var list_of_links = $('.targetblank');
-	for (var i in list_of_links) {
-		list_of_links[i].target = '_blank';
-	}
 }
