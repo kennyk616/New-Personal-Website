@@ -30,7 +30,7 @@ div.facebook .pp_close
     background: url(../images/prettyPhoto/facebook/sprite.png) -1px -1px no-repeat;
     cursor: pointer;
 }
-div.facebook .pp_description {    margin: 0 37px 0 0 }
+div.facebook .pp_description {    margin: 0 37px 0 0; font-size: 14px; line-height: 20px;}
 div.facebook .pp_loaderIcon {    background: url(../images/prettyPhoto/facebook/loader.gif) center center no-repeat }
 div.facebook .pp_arrow_previous
 {
