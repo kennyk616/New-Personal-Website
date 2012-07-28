@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	initScrollPath();
 	initializeLinks();
-	$(".gallery1 a[rel^='prettyPhoto']").prettyPhoto({
+	$(".gallery a[rel^='prettyPhoto']").prettyPhoto({
 		animation_speed:'normal',
 		theme:'facebook',
 		slideshow:3000, 
@@ -12,18 +12,6 @@ $(document).ready(function() {
 		overlay_gallery: false,
         default_width: 800,
         default_height: 490
-	});
-	
-	$(".gallery2 a[rel^='prettyPhoto']").prettyPhoto({
-		animation_speed:'normal',
-		theme:'facebook',
-		slideshow:3000, 
-		autoplay_slideshow: false,
-		social_tools: false,
-		deeplinking: false,
-		overlay_gallery: false,
-        default_width: 500,
-        default_height: 500
 	});
     
 });
