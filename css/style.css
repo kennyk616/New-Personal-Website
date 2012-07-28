@@ -249,7 +249,7 @@ div.home-about, div.home-contact, div.home-projects{
 }
 
 
-#project-span10 .thumbnail:hover
+#project-span10 li:hover .thumbnail
 {
 	background-color: #4eb8e0;
 }
