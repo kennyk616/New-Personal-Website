@@ -50,7 +50,7 @@ function initScrollPath() {
 	$.fn.scrollPath("getPath")
 	// Move to 'home' element
 	
-	.moveTo(1600, 50, {
+	.moveTo(600, 50, {
 		name : "home"
 	})
 	
@@ -58,15 +58,15 @@ function initScrollPath() {
 		name: "projects"
 	})
 	
-	.lineTo(1600, 2050, {
+	.lineTo(600, 2050, {
 		name: "aboutme"
 	})
 	
-	.lineTo(2600, 1050, {
+	.lineTo(600, 3050, {
 		name: "contact"
 	})
 	
-	.lineTo(1600, 50, {
+	.lineTo(600, 50, {
 		name: "end"
 	})	
 	
@@ -90,9 +90,6 @@ function replacePath(elem) {
 			var target = $(this).attr("href").replace("#", "");
 			$(this).click(function(e) {
 				e.preventDefault();
-
-				// Include the jQuery easing plugin (http://gsgd.co.uk/sandbox/jquery/easing/)
-				// for extra easing functions like the one below
 				$.fn.scrollPath("scrollTo", target, 1000, "easeInOutSine");
 			});
 		}

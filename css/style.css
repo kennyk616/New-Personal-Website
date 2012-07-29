@@ -92,7 +92,8 @@ body
     text-align: center;
     position: relative;
     top: -110px;
-    left: 1200px;
+    left: 190px;
+    
     -webkit-transform: rotate(-20deg);
     -moz-transform: rotate(-20deg);
     -ms-transform: rotate(-20deg);
@@ -557,7 +558,7 @@ li.github:hover
 .aboutme
 {
     top: 1710px;
-    left: 1190px;
+    left: 190px;
 }
 
 .aboutme .content-box {
@@ -582,8 +583,8 @@ li.github:hover
 /* === Contact === */
 .contact
 {
-    top: 710px;
-    left: 2190px;
+    top: 2710px;
+    left: 190px;
 }
 .contact-input
 {
