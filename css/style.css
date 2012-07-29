@@ -172,7 +172,7 @@ div.home-about, div.home-contact, div.home-projects{
 /* === projects === */
 .projects{
     top: 710px;
-    left: 105px;
+    left: 405px;
 }
 .page-title{
     font-size: 26px;
@@ -558,7 +558,7 @@ li.github:hover
 .aboutme
 {
     top: 1710px;
-    left: 190px;
+    left: 790px;
 }
 
 .aboutme .content-box {
@@ -584,7 +584,7 @@ li.github:hover
 .contact
 {
     top: 2710px;
-    left: 190px;
+    left: 1090px;
 }
 .contact-input
 {

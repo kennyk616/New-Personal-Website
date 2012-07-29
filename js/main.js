@@ -54,15 +54,15 @@ function initScrollPath() {
 		name : "home"
 	})
 	
-	.lineTo(600, 1050, {
+	.lineTo(900, 1050, {
 		name: "projects"
 	})
 	
-	.lineTo(600, 2050, {
+	.lineTo(1200, 2050, {
 		name: "aboutme"
 	})
 	
-	.lineTo(600, 3050, {
+	.lineTo(1500, 3050, {
 		name: "contact"
 	})
 	
