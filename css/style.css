@@ -352,7 +352,7 @@ div.home-about, div.home-contact, div.home-projects{
 	height: 125px;
 }
 
-#project-span10 li:hover #opower-thumbnail:hover
+#project-span10 li:hover #opower-thumbnail
 {
 	background-position: 125px -625px;
 }
