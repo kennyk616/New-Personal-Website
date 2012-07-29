@@ -66,6 +66,8 @@ function initScrollPath() {
 		name: "contact"
 	})
 	
+	.lineTo(1650, 3550)
+	.moveTo(450, -450)
 	.lineTo(600, 50, {
 		name: "end"
 	})	
