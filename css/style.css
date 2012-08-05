@@ -491,12 +491,13 @@ width:200px
 }
 /*==about me ==*/
 .aboutme {
-top:1710px;
+top:1680px;
 left:790px
 }
 
 .aboutme .content-box {
-height:436px
+/*height:436px*/
+height: 500px
 }
 
 .content-box {
