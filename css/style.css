@@ -303,6 +303,16 @@ height:125px
 background-position:125px -500px
 }
 
+#project-span10 li #rocmc-thumbnail {
+background:url(../images/projects/projects.jpg) 0 -1875px;
+width:125px;
+height:125px
+}
+
+#project-span10 li:hover #rocmc-thumbnail {
+background-position:125px -1875px
+}
+
 #project-span10 li #palantir-thumbnail {
 background:url(../images/projects/projects.jpg) 0 -1750px;
 width:125px;
