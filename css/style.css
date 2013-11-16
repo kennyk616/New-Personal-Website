@@ -303,6 +303,11 @@ height:125px
 background-position:125px -500px
 }
 
+
+#project-span10 li #music-221-thumbnail {
+	background:url(../images/projects/cs221_music.jpg);
+}
+
 #project-span10 li #rocmc-thumbnail {
 background:url(../images/projects/projects.jpg) 0 -1875px;
 width:125px;
